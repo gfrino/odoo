@@ -1,0 +1,6 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+1,vsd.point.entry.line,model_vsd_point_entry_line,base.group_user,1,1,1,1
+2,vsd.point.entry,model_vsd_point_entry,base.group_user,1,1,1,1
+3,vsd.yearly,model_vsd_yearly,base.group_user,1,1,1,1
+4,vsd.monthly,model_vsd_monthly,base.group_user,1,1,1,1
+5,vsd.setting,model_vsd_setting,base.group_user,1,1,1,1

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+
+    <record id="smile_response_email_template" model="mail.template">
+        <field name="name">Smile Response Mail Template</field>
+        <field name="model_id" ref="rating.model_rating_rating"/>
+        <field name="auto_delete" eval="False"/>
+        <field name="email_from">${ctx['email_from']}</field>
+        <field name="email_to">${ctx['email_to']}</field>
+        <field name="subject">${ctx['subject']}</field>
+        <field name="lang">${ctx['lang']}</field>
+        <field name="body_html">
+            <![CDATA[
+            <div>
+            	<p>Dear <b>${ctx['customer_name']}</b> </p> 
+				<p><b>Thanks for your smile!</b></p> <br/>
+				
+				<p>We work hard to make you happy and seeing your smile gave us great joy. We would like everyone to know about this, don't you?<p>
+				<p>Therefore here are two links where you can write a review about us, this would wonderful for us:</p>
+				
+				<p>For Google here:</p>
+				<a href="https://g.page/r/CaF2-23Bs-uREAg/review" target="_blank">https://g.page/r/CaF2-23Bs-uREAg/review</a> <br/>
+				
+				<p>For facebook here:</p>
+				<a href="https://www.facebook.com/prodottidigitali/reviews" target="_blank">https://www.facebook.com/prodottidigitali/reviews</a> <br/>
+				
+				<p>THANKS!!! </p> 
+				<p>Best regards,</p> 
+				<p>Team ticinoWEB</p> 
+				
+            </div>
+            ]]>
+    	</field>
+    </record>
+    
+</odoo>

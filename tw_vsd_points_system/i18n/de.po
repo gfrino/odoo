@@ -1,0 +1,1397 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* tw_vsd_points_system
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-24 15:38+0000\n"
+"PO-Revision-Date: 2021-08-24 15:38+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: tw_vsd_points_system
+#: model:mail.template,body_html:tw_vsd_points_system.smile_response_email_template
+msgid ""
+"\n"
+"            \n"
+"            <div>\n"
+"            \t<p>Dear <b>${ctx['customer_name']}</b> </p> \n"
+"\t\t\t\t<p><b>Thanks for your smile!</b></p> <br/>\n"
+"\t\t\t\t\n"
+"\t\t\t\t<p>We work hard to make you happy and seeing your smile gave us great joy. We would like everyone to know about this, don't you?<p>\n"
+"\t\t\t\t<p>Therefore here are two links where you can write a review about us, this would wonderful for us:</p>\n"
+"\t\t\t\t\n"
+"\t\t\t\t<p>For Google here:</p>\n"
+"\t\t\t\t<a href=\"url\">https://g.page/r/CaF2-23Bs-uREAg/review</a> <br/>\n"
+"\t\t\t\t\n"
+"\t\t\t\t<p>For facebook here:</p>\n"
+"\t\t\t\t<a href=\"url\">https://www.facebook.com/prodottidigitali/reviews</a> <br/>\n"
+"\t\t\t\t\n"
+"\t\t\t\t<p>THANKS!!! </p> \n"
+"\t\t\t\t<p>Best regards,</p> \n"
+"\t\t\t\t<p>Team ticinoWEB</p> \n"
+"\t\t\t\t\n"
+"            </div>\n"
+"            \n"
+"    \t"
+msgstr ""
+"\n"
+"            \n"
+"            <div>\n"
+"            \t<p>Lieber <b>${ctx['customer_name']}</b> </p> \n"
+"\t\t\t\t<p><b>vielen Dank für Ihr Lächeln!</b></p> <br/>\n"
+"\t\t\t\t\n"
+"\t\t\t\t<p>Wir arbeiten hart, um Sie glücklich zu machen, und Ihr Lächeln zu sehen, hat uns große Freude bereitet. Wir möchten, dass jeder davon erfährt, Sie nicht auch?<p>\n"
+"\t\t\t\t<p>Deshalb sind hier zwei Links, wo Sie eine Bewertung über uns schreiben können, das wäre wunderbar für uns:</p>\n"
+"\t\t\t\t\n"
+"\t\t\t\t<p>Für Google hier:</p>\n"
+"\t\t\t\t<a href=\"url\">https://g.page/r/CaF2-23Bs-uREAg/review</a> <br/>\n"
+"\t\t\t\t\n"
+"\t\t\t\t<p>Für Facebook hier:</p>\n"
+"\t\t\t\t<a href=\"url\">https://www.facebook.com/prodottidigitali/reviews</a> <br/>\n"
+"\t\t\t\t\n"
+"\t\t\t\t<p>DANKE!!! </p> \n"
+"\t\t\t\t<p>Mit freundlichen Grüßen,</p> \n"
+"\t\t\t\t<p>Team ticinoWEB</p> \n"
+"\t\t\t\t\n"
+"            </div>\n"
+"            \n"
+"    \t"
+
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_monthly__year__2021
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_point_entry_line__google_ads_year__2021
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_yearly__name__2021
+msgid "2021"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_monthly__year__2022
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_point_entry_line__google_ads_year__2022
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_yearly__name__2022
+msgid "2022"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_monthly__year__2023
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_point_entry_line__google_ads_year__2023
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_yearly__name__2023
+msgid "2023"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_monthly__year__2024
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_point_entry_line__google_ads_year__2024
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_yearly__name__2024
+msgid "2024"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_monthly__year__2025
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_point_entry_line__google_ads_year__2025
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_yearly__name__2025
+msgid "2025"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_monthly__year__2026
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_point_entry_line__google_ads_year__2026
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_yearly__name__2026
+msgid "2026"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_monthly__year__2027
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_point_entry_line__google_ads_year__2027
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_yearly__name__2027
+msgid "2027"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_monthly__year__2028
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_point_entry_line__google_ads_year__2028
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_yearly__name__2028
+msgid "2028"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_monthly__year__2029
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_point_entry_line__google_ads_year__2029
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_yearly__name__2029
+msgid "2029"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_monthly__year__2030
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_point_entry_line__google_ads_year__2030
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_yearly__name__2030
+msgid "2030"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_monthly__year__2031
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_point_entry_line__google_ads_year__2031
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_yearly__name__2031
+msgid "2031"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_monthly__year__2032
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_point_entry_line__google_ads_year__2032
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_yearly__name__2032
+msgid "2032"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_monthly__year__2033
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_point_entry_line__google_ads_year__2033
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_yearly__name__2033
+msgid "2033"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_monthly__year__2034
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_point_entry_line__google_ads_year__2034
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_yearly__name__2034
+msgid "2034"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_monthly__year__2035
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_point_entry_line__google_ads_year__2035
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_yearly__name__2035
+msgid "2035"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_monthly__year__2036
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_point_entry_line__google_ads_year__2036
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_yearly__name__2036
+msgid "2036"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_monthly__year__2037
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_point_entry_line__google_ads_year__2037
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_yearly__name__2037
+msgid "2037"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_monthly__year__2038
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_point_entry_line__google_ads_year__2038
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_yearly__name__2038
+msgid "2038"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_monthly__year__2039
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_point_entry_line__google_ads_year__2039
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_yearly__name__2039
+msgid "2039"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_monthly__year__2040
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_point_entry_line__google_ads_year__2040
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_yearly__name__2040
+msgid "2040"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_monthly__year__2041
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_point_entry_line__google_ads_year__2041
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_yearly__name__2041
+msgid "2041"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_monthly__year__2042
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_point_entry_line__google_ads_year__2042
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_yearly__name__2042
+msgid "2042"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_monthly__year__2043
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_point_entry_line__google_ads_year__2043
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_yearly__name__2043
+msgid "2043"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_monthly__year__2044
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_point_entry_line__google_ads_year__2044
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_yearly__name__2044
+msgid "2044"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_monthly__year__2045
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_point_entry_line__google_ads_year__2045
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_yearly__name__2045
+msgid "2045"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_monthly__year__2046
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_point_entry_line__google_ads_year__2046
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_yearly__name__2046
+msgid "2046"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_monthly__year__2047
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_point_entry_line__google_ads_year__2047
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_yearly__name__2047
+msgid "2047"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_monthly__year__2048
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_point_entry_line__google_ads_year__2048
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_yearly__name__2048
+msgid "2048"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_monthly__year__2049
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_point_entry_line__google_ads_year__2049
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_yearly__name__2049
+msgid "2049"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_monthly__year__2050
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_point_entry_line__google_ads_year__2050
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_yearly__name__2050
+msgid "2050"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model,name:tw_vsd_points_system.model_account_payment
+msgid "Account Payment VSD"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_monthly__message_needaction
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_point_entry__message_needaction
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_yearly__message_needaction
+msgid "Action Needed"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_monthly__activity_ids
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_point_entry__activity_ids
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_yearly__activity_ids
+msgid "Activities"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_monthly__activity_exception_decoration
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_point_entry__activity_exception_decoration
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_yearly__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_monthly__activity_state
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_point_entry__activity_state
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_yearly__activity_state
+msgid "Activity State"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_setting__category_ids
+msgid "Applied on Categories"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_monthly__name__4
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_point_entry_line__google_ads_month__4
+msgid "April"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_setting__user_id
+msgid "Assign To"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_point_entry_line__user_id
+msgid "Assigned To"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_monthly__message_attachment_count
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_point_entry__message_attachment_count
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_yearly__message_attachment_count
+msgid "Attachment Count"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_monthly__name__8
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_point_entry_line__google_ads_month__8
+msgid "August"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_setting__vsd_type__based_on_invoice
+msgid "Based on Invoice"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_project_task__bozza_video
+msgid "Bozza Video"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_project_task__bozza_sito
+msgid "Bozza sito"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_project_task__campaign_goals
+msgid "Campaign Goals"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:res.groups,name:tw_vsd_points_system.group_close_vsd_entry
+msgid "Can Close VSD Entry"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:res.groups,name:tw_vsd_points_system.group_delete_marketing_line
+msgid "Can Delete Marketing Line"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:res.groups,name:tw_vsd_points_system.group_delete_vsd_entry
+msgid "Can Delete VSD Entry"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_project_task__cart_checkout
+msgid "Cart & Checkout"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_project_task__cartella_kdrive
+msgid "Cartella kDrive"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model_terms:ir.ui.view,arch_db:tw_vsd_points_system.view_project_task_form_inhrt
+msgid "Checklist di Consegna"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_project_task__client_review
+msgid "Client review"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_project_task__cliente_soddisfatto
+msgid "Cliente soddisfatto"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_monthly__state__close
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_point_entry_line__state__close
+#: model_terms:ir.ui.view,arch_db:tw_vsd_points_system.view_vsd_monthly_form
+#: model_terms:ir.ui.view,arch_db:tw_vsd_points_system.view_vsd_monthly_tree
+#: model_terms:ir.ui.view,arch_db:tw_vsd_points_system.view_vsd_point_form
+#: model_terms:ir.ui.view,arch_db:tw_vsd_points_system.view_vsd_yearly_form
+msgid "Close"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_point_entry__state__close
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_yearly__state__close
+msgid "Closed"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_monthly__date_close
+msgid "Closing Date"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_project_task__color_palette
+msgid "Color Palette"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_project_task__competition_research
+msgid "Competition Research"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_project_task__consulenza
+msgid "Consulenza"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_project_task__correzioni
+msgid "Correzioni"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model_terms:ir.actions.act_window,help:tw_vsd_points_system.action_vsd_point_view
+msgid "Create VSD Records Here......."
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model_terms:ir.actions.act_window,help:tw_vsd_points_system.action_vsd_yearly_view
+msgid "Create Yearly VSD Records Here......."
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_monthly__create_uid
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_point_entry__create_uid
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_point_entry_line__create_uid
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_setting__create_uid
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_yearly__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_monthly__create_date
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_point_entry__create_date
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_point_entry_line__create_date
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_setting__create_date
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_yearly__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model_terms:ir.ui.view,arch_db:tw_vsd_points_system.view_vsd_point_line_search
+msgid "Current Month"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model_terms:ir.ui.view,arch_db:tw_vsd_points_system.view_vsd_point_line_search
+msgid "Current Week"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_point_entry_line__customer_id
+msgid "Customer"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_project_task__data_di_completamento
+msgid "Data di Completamento"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_point_entry_line__date
+msgid "Date"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_project_task__planned_total_days
+msgid "Days"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_monthly__name__12
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_point_entry_line__google_ads_month__12
+msgid "December"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_project_task__design_archivio_prodotti
+msgid "Design Archivio Prodotti"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_project_task__design_pagina_rodotto
+msgid "Design Pagina Prodotto"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_monthly__display_name
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_point_entry__display_name
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_point_entry_line__display_name
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_setting__display_name
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_yearly__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__project_task__vsd_status__done
+msgid "Done"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__project_task__servizio__email_marketing
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_setting__servizio__email_marketing
+msgid "Email Marketing"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_project_task__email_setup
+msgid "Email Setup"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_point_entry_line__employee_id
+#: model_terms:ir.ui.view,arch_db:tw_vsd_points_system.view_vsd_point_line_search
+msgid "Employee"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_project_task__is_exception
+msgid "Enable Exception"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_monthly__date_end
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_point_entry__date_to
+msgid "End Date"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_project_task__ex_total_days
+msgid "Ex Days"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_project_task__ex_points_value
+msgid "Ex VSD Points"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_project_task__ex_vsd_value
+msgid "Ex VSD Value"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_project_task__ex_end_date
+msgid "Exception End Date"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_project_task__ex_start_date
+msgid "Exception Start Date"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_project_task__favicon
+msgid "Favicon"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_monthly__name__2
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_point_entry_line__google_ads_month__2
+msgid "February"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_monthly__message_follower_ids
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_point_entry__message_follower_ids
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_yearly__message_follower_ids
+msgid "Followers"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_monthly__message_channel_ids
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_point_entry__message_channel_ids
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_yearly__message_channel_ids
+msgid "Followers (Channels)"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_monthly__message_partner_ids
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_point_entry__message_partner_ids
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_yearly__message_partner_ids
+msgid "Followers (Partners)"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_project_task__foto_di_qualita
+msgid "Foto di qualità"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__project_task__servizio__google_ads
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_setting__servizio__google_ads
+msgid "Google Ads"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_project_task__google_ads_audit
+msgid "Google Ads Audit"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.ui.menu,name:tw_vsd_points_system.menu_vsd_yearly_model
+msgid "Google Ads VSD Management"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.actions.act_window,name:tw_vsd_points_system.action_vsd_monthly_view
+msgid "Google Ads VSD Monthly"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.actions.act_window,name:tw_vsd_points_system.action_vsd_yearly_view
+msgid "Google Ads VSD yearly"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_project_task__google_my_business
+msgid "Google My Business"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__project_task__servizio__grafica
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_setting__servizio__grafica
+msgid "Grafica"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model_terms:ir.ui.view,arch_db:tw_vsd_points_system.view_vsd_point_line_search
+msgid "Group By"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__project_task__valutazione_taff_ticino__high
+msgid "High"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_monthly__id
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_point_entry__id
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_point_entry_line__id
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_setting__id
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_yearly__id
+msgid "ID"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_monthly__activity_exception_icon
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_point_entry__activity_exception_icon
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_yearly__activity_exception_icon
+msgid "Icon"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,help:tw_vsd_points_system.field_vsd_monthly__activity_exception_icon
+#: model:ir.model.fields,help:tw_vsd_points_system.field_vsd_point_entry__activity_exception_icon
+#: model:ir.model.fields,help:tw_vsd_points_system.field_vsd_yearly__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,help:tw_vsd_points_system.field_vsd_monthly__message_needaction
+#: model:ir.model.fields,help:tw_vsd_points_system.field_vsd_monthly__message_unread
+#: model:ir.model.fields,help:tw_vsd_points_system.field_vsd_point_entry__message_needaction
+#: model:ir.model.fields,help:tw_vsd_points_system.field_vsd_point_entry__message_unread
+#: model:ir.model.fields,help:tw_vsd_points_system.field_vsd_yearly__message_needaction
+#: model:ir.model.fields,help:tw_vsd_points_system.field_vsd_yearly__message_unread
+msgid "If checked, new messages require your attention."
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,help:tw_vsd_points_system.field_vsd_monthly__message_has_error
+#: model:ir.model.fields,help:tw_vsd_points_system.field_vsd_monthly__message_has_sms_error
+#: model:ir.model.fields,help:tw_vsd_points_system.field_vsd_point_entry__message_has_error
+#: model:ir.model.fields,help:tw_vsd_points_system.field_vsd_point_entry__message_has_sms_error
+#: model:ir.model.fields,help:tw_vsd_points_system.field_vsd_yearly__message_has_error
+#: model:ir.model.fields,help:tw_vsd_points_system.field_vsd_yearly__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_project_task__impostare_campagna
+msgid "Impostare la Campagna"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__project_task__vsd_status__inprogress
+msgid "In Progress"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_project_task__integrazione_facebook
+msgid "Integrazione del sito web con Facebook"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_project_task__inviare_saldo
+msgid "Inviare Saldo"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_project_task__is_added_timsheet
+msgid "Is Added Timsheet"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_monthly__message_is_follower
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_point_entry__message_is_follower
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_yearly__message_is_follower
+msgid "Is Follower"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_project_project__is_google_ads_project
+msgid "Is Google Ads Project"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_monthly__name__1
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_point_entry_line__google_ads_month__1
+msgid "January"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_monthly__name__7
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_point_entry_line__google_ads_month__7
+msgid "July"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_monthly__name__6
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_point_entry_line__google_ads_month__6
+msgid "June"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_monthly____last_update
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_point_entry____last_update
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_point_entry_line____last_update
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_setting____last_update
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_yearly____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_monthly__write_uid
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_point_entry__write_uid
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_point_entry_line__write_uid
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_setting__write_uid
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_yearly__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_monthly__write_date
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_point_entry__write_date
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_point_entry_line__write_date
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_setting__write_date
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_yearly__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_point_entry_line__line_id
+msgid "Line"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_project_task__logo
+msgid "Logo"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__project_task__valutazione_taff_ticino__low
+msgid "Low"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_project_task__mailpoet_setup
+msgid "Mailpoet Setup"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_monthly__message_main_attachment_id
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_point_entry__message_main_attachment_id
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_yearly__message_main_attachment_id
+msgid "Main Attachment"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.module.category,description:tw_vsd_points_system.vsd_point_groups
+msgid "Manager VSD and Points"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_monthly__name__3
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_point_entry_line__google_ads_month__3
+msgid "March"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model_terms:ir.ui.view,arch_db:tw_vsd_points_system.view_project_task_form_inhrt
+msgid "Mark as Done"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_point_entry_line__marketing_id
+msgid "Marketing Line"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_monthly__name__5
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_point_entry_line__google_ads_month__5
+msgid "May"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__project_task__valutazione_taff_ticino__mega_high
+msgid "Mega High"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_monthly__message_has_error
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_point_entry__message_has_error
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_yearly__message_has_error
+msgid "Message Delivery error"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_monthly__message_ids
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_point_entry__message_ids
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_yearly__message_ids
+msgid "Messages"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_monthly__name
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_point_entry_line__google_ads_month
+msgid "Month"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_yearly__line_ids
+msgid "Months"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_point_entry_line__move_id
+msgid "Move Ref"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_point_entry__name
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_point_entry_line__name
+msgid "Name"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_monthly__activity_date_deadline
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_point_entry__activity_date_deadline
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_yearly__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_monthly__activity_summary
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_point_entry__activity_summary
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_yearly__activity_summary
+msgid "Next Activity Summary"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_monthly__activity_type_id
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_point_entry__activity_type_id
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_yearly__activity_type_id
+msgid "Next Activity Type"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model_terms:ir.actions.act_window,help:tw_vsd_points_system.action_vsd_monthly_view
+msgid "No Record for Monthly VSD found......."
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model_terms:ir.actions.act_window,help:tw_vsd_points_system.action_vsd_setting_view
+msgid "No VSD Settings Found, Let's Create one....."
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model_terms:ir.actions.act_window,help:tw_vsd_points_system.action_vsd_point_line_view
+msgid "No VSD and Points Found Here......."
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__project_task__valutazione_taff_ticino__normal
+msgid "Normal"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_point_entry__note
+msgid "Note"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model_terms:ir.ui.view,arch_db:tw_vsd_points_system.view_vsd_point_form
+msgid "Notes Here..."
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_monthly__name__11
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_point_entry_line__google_ads_month__11
+msgid "November"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_monthly__message_needaction_counter
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_point_entry__message_needaction_counter
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_yearly__message_needaction_counter
+msgid "Number of Actions"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_monthly__message_has_error_counter
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_point_entry__message_has_error_counter
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_yearly__message_has_error_counter
+msgid "Number of errors"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,help:tw_vsd_points_system.field_vsd_monthly__message_needaction_counter
+#: model:ir.model.fields,help:tw_vsd_points_system.field_vsd_point_entry__message_needaction_counter
+#: model:ir.model.fields,help:tw_vsd_points_system.field_vsd_yearly__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,help:tw_vsd_points_system.field_vsd_monthly__message_has_error_counter
+#: model:ir.model.fields,help:tw_vsd_points_system.field_vsd_point_entry__message_has_error_counter
+#: model:ir.model.fields,help:tw_vsd_points_system.field_vsd_yearly__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,help:tw_vsd_points_system.field_vsd_monthly__message_unread_counter
+#: model:ir.model.fields,help:tw_vsd_points_system.field_vsd_point_entry__message_unread_counter
+#: model:ir.model.fields,help:tw_vsd_points_system.field_vsd_yearly__message_unread_counter
+msgid "Number of unread messages"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_monthly__name__10
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_point_entry_line__google_ads_month__10
+msgid "October"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__project_task__servizio__odoo
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_setting__servizio__odoo
+msgid "Odoo"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_monthly__state__open
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_point_entry__state__open
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_point_entry_line__state__open
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_yearly__state__open
+msgid "Open"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__project_task__servizio__pacchetto_assistenza
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_setting__servizio__pacchetto_assistenza
+msgid "Pacchetto Assistenza"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_monthly__parent_id
+msgid "Parent"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_project_task__pianificazione_cliente
+msgid "Pianificazione Mensile delle campagne con il Cliente"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_project_task__points_value
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_point_entry_line__points_value
+msgid "Points Value"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model_terms:ir.ui.view,arch_db:tw_vsd_points_system.view_vsd_point_line_search
+msgid "Prev Month"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_point_entry_line__project_id
+msgid "Project"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model,name:tw_vsd_points_system.model_project_project
+msgid "Project Inherit VSD"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_project_task__pubblicare_blog
+msgid "Pubblicare Blog"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model_terms:ir.ui.view,arch_db:tw_vsd_points_system.view_vsd_monthly_form
+msgid "Related Tasks"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_monthly__activity_user_id
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_point_entry__activity_user_id
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_yearly__activity_user_id
+msgid "Responsible User"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_project_task__responsive
+msgid "Responsive"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_project_task__seo
+msgid "SEO"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_monthly__message_has_sms_error
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_point_entry__message_has_sms_error
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_yearly__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.constraint,message:tw_vsd_points_system.constraint_vsd_yearly_name_uniq
+msgid "Same Year already exists!"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_project_task__scegliere_font
+msgid "Scegliere Font"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_project_task__search_console
+msgid "Search Console"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model_terms:ir.ui.view,arch_db:tw_vsd_points_system.view_vsd_yearly_form
+msgid "Select Year"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_monthly__name__9
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_point_entry_line__google_ads_month__9
+msgid "September"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_project_task__server_setup
+msgid "Server Setup"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model_terms:ir.ui.view,arch_db:tw_vsd_points_system.view_vsd_point_line_search
+msgid "Service"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_project_task__servizio
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_point_entry_line__servizio
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_setting__servizio
+msgid "Servizio"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:res.groups,name:tw_vsd_points_system.group_task_vsd_mark_done
+msgid "Show Mark as Done on Task"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_point_entry_line__is_smile_bonus
+msgid "Smile Bonus"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_project_task__social_media_audit
+msgid "Social Media Audit"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__project_task__servizio__facebook_marketing
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_setting__servizio__facebook_marketing
+msgid "Social Media Marketing"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_monthly__date_start
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_point_entry__date_from
+msgid "Start Date"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_monthly__state
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_point_entry__state
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_point_entry_line__state
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_yearly__state
+msgid "State"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,help:tw_vsd_points_system.field_vsd_monthly__activity_state
+#: model:ir.model.fields,help:tw_vsd_points_system.field_vsd_point_entry__activity_state
+#: model:ir.model.fields,help:tw_vsd_points_system.field_vsd_yearly__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__project_task__valutazione_taff_ticino__super_high
+msgid "Super High"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_project_task__target_audience
+msgid "Target Audience Analysis"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model,name:tw_vsd_points_system.model_project_task
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_monthly__task_ids
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_point_entry_line__task_id
+msgid "Task"
+msgstr "Aufgabe"
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_project_task__termini_condizioni
+msgid "Termini & Condizioni"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_project_task__testi
+msgid "Testi"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_project_task__testing
+msgid "Testing"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_point_entry_line__timesheet_id
+msgid "Timesheet"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model_terms:ir.ui.view,arch_db:tw_vsd_points_system.view_vsd_point_line_search
+msgid "Today"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_setting__vsd_type
+msgid "Type"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,help:tw_vsd_points_system.field_vsd_monthly__activity_exception_decoration
+#: model:ir.model.fields,help:tw_vsd_points_system.field_vsd_point_entry__activity_exception_decoration
+#: model:ir.model.fields,help:tw_vsd_points_system.field_vsd_yearly__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_monthly__message_unread
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_point_entry__message_unread
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_yearly__message_unread
+msgid "Unread Messages"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_monthly__message_unread_counter
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_point_entry__message_unread_counter
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_yearly__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model_terms:ir.ui.view,arch_db:tw_vsd_points_system.view_project_task_form_inhrt
+#: model_terms:ir.ui.view,arch_db:tw_vsd_points_system.view_vsd_monthly_tree
+#: model_terms:ir.ui.view,arch_db:tw_vsd_points_system.view_vsd_yearly_form
+msgid "Update VSD"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model_terms:ir.ui.view,arch_db:tw_vsd_points_system.view_project_task_form_inhrt
+msgid "VSD Exception"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_project_task__vsd_id
+msgid "VSD ID"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model_terms:ir.ui.view,arch_db:tw_vsd_points_system.view_vsd_point_form
+msgid "VSD Lines"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model,name:tw_vsd_points_system.model_vsd_monthly
+msgid "VSD Monthly Line"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model_terms:ir.ui.view,arch_db:tw_vsd_points_system.view_vsd_yearly_form
+msgid "VSD Months"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.actions.act_window,name:tw_vsd_points_system.action_vsd_point_view
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_setting__vsd_points
+#: model:ir.module.category,name:tw_vsd_points_system.vsd_point_groups
+msgid "VSD Points"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model_terms:ir.ui.view,arch_db:tw_vsd_points_system.view_vsd_point_form
+#: model_terms:ir.ui.view,arch_db:tw_vsd_points_system.view_vsd_point_line_tree
+msgid "VSD Points Total"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model,name:tw_vsd_points_system.model_vsd_setting
+msgid "VSD Setting Page"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.actions.act_window,name:tw_vsd_points_system.action_vsd_setting_view
+#: model:ir.ui.menu,name:tw_vsd_points_system.vsd_settings_menu
+msgid "VSD Settings"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_project_task__vsd_value
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_point_entry_line__vsd_value
+msgid "VSD Value"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model_terms:ir.ui.view,arch_db:tw_vsd_points_system.view_vsd_point_form
+#: model_terms:ir.ui.view,arch_db:tw_vsd_points_system.view_vsd_point_line_tree
+msgid "VSD Value Total"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model,name:tw_vsd_points_system.model_vsd_yearly
+msgid "VSD Yearly Inherit"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.actions.act_window,name:tw_vsd_points_system.action_vsd_point_line_view
+#: model:ir.ui.menu,name:tw_vsd_points_system.menu_vsd_point_line
+msgid "VSD and Points"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.ui.menu,name:tw_vsd_points_system.menu_vsd_point_summary
+msgid "VSD and Points Summary"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_project_task__valutazione_taff_ticino
+msgid "Valutazione dello staff ticinoWEB"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__project_task__valutazione_taff_ticino__very_high
+msgid "Very High"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__project_task__servizio__video
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_setting__servizio__video
+msgid "Video"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_point_entry__vsd_line_ids
+msgid "Vsd Line"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_project_task__vsd_status
+msgid "Vsd Status"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__project_task__servizio__website
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_setting__servizio__website
+msgid "Website"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_monthly__website_message_ids
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_point_entry__website_message_ids
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_yearly__website_message_ids
+msgid "Website Messages"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,help:tw_vsd_points_system.field_vsd_monthly__website_message_ids
+#: model:ir.model.fields,help:tw_vsd_points_system.field_vsd_point_entry__website_message_ids
+#: model:ir.model.fields,help:tw_vsd_points_system.field_vsd_yearly__website_message_ids
+msgid "Website communication history"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:mail.template,subject:tw_vsd_points_system.smile_response_email_template
+msgid "Write a review on ticinoWEB!"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_monthly__year
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_point_entry_line__google_ads_year
+#: model:ir.model.fields,field_description:tw_vsd_points_system.field_vsd_yearly__name
+msgid "Year"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model_terms:ir.ui.view,arch_db:tw_vsd_points_system.view_vsd_point_line_search
+msgid "Yesterday"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__project_task__servizio__ecommerce
+#: model:ir.model.fields.selection,name:tw_vsd_points_system.selection__vsd_setting__servizio__ecommerce
+msgid "eCommerce"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model,name:tw_vsd_points_system.model_rating_rating
+msgid "rating rating in VSD"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model,name:tw_vsd_points_system.model_vsd_point_entry
+msgid "vsd.point.entry"
+msgstr ""
+
+#. module: tw_vsd_points_system
+#: model:ir.model,name:tw_vsd_points_system.model_vsd_point_entry_line
+msgid "vsd.point.entry.line"
+msgstr ""

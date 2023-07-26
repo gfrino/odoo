@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+	<record id="view_vsd_yearly_form" model="ir.ui.view">
+		<field name="name">vsd.yearly.form</field>
+		<field name="model">vsd.yearly</field>
+		<field name="arch" type="xml">
+			<form>
+				<header>
+					<button name='action_close' string="Close" type="object" states='open'
+						class='btn-danger' groups="tw_vsd_points_system.group_close_vsd_entry"/>
+						
+					<field name="state" widget="statusbar" statusbar_visible="open,close" />
+				</header>
+
+				<sheet>
+					<div class="oe_title">
+                        <h3>
+	                        <group>
+	                        	<field name="name" placeholder="Select Year"/>
+	                        </group>
+                        </h3>
+                    </div>
+					
+					<notebook>
+						<page string="VSD Months">
+							<field name="line_ids" >
+								<!-- <tree create="false" edit="false" options="{'no_create':True, 'no_edit':True, 'no_open':True}"
+								decoration-info="state=='close'" decoration-bf="state=='close'"> -->
+								<tree editable="bottom">
+									<field name="year" readonly="False"/>
+									<field name="name" readonly="False"/>
+									<field name="state" readonly="True"/>
+									<button name='action_update_vsd_google' string="Update VSD" type="object" states='open'
+									class='btn-success' />
+									<button name='action_close' string="Close" type="object" states='open'
+									class='btn-danger' />
+									<field name="date_start" optional="hide"/>
+									<field name="date_end" optional="hide"/>
+									<field name="date_close" optional="hide"/>
+								</tree>
+								
+							</field>
+						</page>
+					</notebook>
+				</sheet>
+				
+			</form>
+		</field>
+	</record>
+
+
+	<record id="view_vsd_yearly_tree" model="ir.ui.view">
+		<field name="name">vsd.yearly.tree</field>
+		<field name="model">vsd.yearly</field>
+		<field name="arch" type="xml">
+			<tree decoration-success="state=='paid'" decoration-muted="state=='close'">
+				<field name="name" />
+				<field name="state" />
+			</tree>
+		</field>
+	</record>
+
+	<record id="view_vsd_yearly_search" model="ir.ui.view">
+		<field name="name">vsd.yearly.search</field>
+		<field name="model">vsd.yearly</field>
+		<field name="arch" type="xml">
+			<search>
+				<field name="name" />
+				<field name="state" />
+			</search>
+		</field>
+	</record>
+
+
+	<record id="action_vsd_yearly_view" model="ir.actions.act_window">
+		<field name="name">Google Ads VSD yearly</field>
+		<field name="res_model">vsd.yearly</field>
+		<field name="type">ir.actions.act_window</field>
+		<field name="view_mode">tree,form</field>
+		<field name="domain">[]</field>
+		<field name="context">{}</field>
+		<field name="search_view_id" ref="view_vsd_yearly_search" />
+		<field name="view_id" ref="view_vsd_yearly_tree" />
+		<field name="help" type="html">
+			<p class="o_view_nocontent_smiling_face">
+				Create Yearly VSD Records Here.......
+			</p>
+		</field>
+	</record>
+
+	<menuitem id="menu_vsd_yearly_model" name="Google Ads VSD Management" action="action_vsd_yearly_view" 
+	parent="project.menu_project_report" sequence="110"/>
+	
+	
+	
+	<!-- VSD Monthly Tree View Model -->
+	<record id="view_vsd_monthly_form" model="ir.ui.view">
+		<field name="name">vsd.monthly.form</field>
+		<field name="model">vsd.monthly</field>
+		<field name="arch" type="xml">
+			<form>
+				<header>
+					<button name='action_close' string="Close" type="object" states='open'
+						class='btn-danger' groups="tw_vsd_points_system.group_close_vsd_entry"/>
+						
+					<field name="state" widget="statusbar" statusbar_visible="open,close" />
+				</header>
+
+				<sheet>
+					<group>
+						<field name="name"/>
+						<field name="year"/>
+					</group>
+					
+					<notebook>
+						<page string="Related Tasks">
+							<field name="task_ids" />
+								<!-- <tree create="false" edit="false" options="{'no_create':True, 'no_edit':True, 'no_open':True}">
+									<field name="name" />
+									<field name="user" />
+								</tree>
+								<form>
+									<group>
+										<field name="name" readonly="True"/>
+										<field name="year" readonly="True"/>
+										<field name="state" readonly="True"/>
+									</group>
+								</form> -->
+						</page>
+					</notebook>
+				</sheet>
+				
+			</form>
+		</field>
+	</record>
+
+
+	<record id="view_vsd_monthly_tree" model="ir.ui.view">
+		<field name="name">vsd.monthly.tree</field>
+		<field name="model">vsd.monthly</field>
+		<field name="arch" type="xml">
+			<tree decoration-success="state=='paid'" decoration-muted="state=='close'">
+				<field name="name" />
+				<field name="year" />
+				<field name="state" />
+				<button name='action_update_vsd_google' string="Update VSD" type="object" states='open'
+									class='btn-success' />
+				<button name='action_close_vsd_google' string="Close" type="object" states='open'
+									class='btn-danger' />
+			</tree>
+		</field>
+	</record>
+
+	<record id="view_vsd_monthly_search" model="ir.ui.view">
+		<field name="name">vsd.monthly.search</field>
+		<field name="model">vsd.monthly</field>
+		<field name="arch" type="xml">
+			<search>
+				<field name="name" />
+				<field name="year" />
+				<field name="state" />
+			</search>
+		</field>
+	</record>
+
+
+	<record id="action_vsd_monthly_view" model="ir.actions.act_window">
+		<field name="name">Google Ads VSD Monthly</field>
+		<field name="res_model">vsd.monthly</field>
+		<field name="type">ir.actions.act_window</field>
+		<field name="view_mode">tree,form</field>
+		<field name="domain">[]</field>
+		<field name="context">{}</field>
+		<field name="search_view_id" ref="view_vsd_monthly_search" />
+		<field name="view_id" ref="view_vsd_monthly_tree" />
+		<field name="help" type="html">
+			<p class="o_view_nocontent_smiling_face">
+				No Record for Monthly VSD found.......
+			</p>
+		</field>
+	</record>
+
+	<!-- <menuitem id="menu_vsd_monthly_model" name="Monthly Google Ads VSD" action="action_vsd_monthly_view" 
+	parent="project.menu_project_report" sequence="111"/> -->
+	
+	
+	
+	
+	
+	
+</odoo>
+
+
