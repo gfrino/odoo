@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Menu Principale -->
+    <menuitem id="menu_stat_book_root"
+        name="Stat Book"
+        sequence="100"
+        groups="group_stat_book_user,group_stat_book_admin"
+        web_icon="tw_stat_book,static/description/icon.png"/>
+
+    <!-- Menu Grafici -->
+    <menuitem id="menu_stat_book_charts"
+        name="Grafici"
+        parent="menu_stat_book_root"
+        sequence="10"
+        groups="group_stat_book_user,group_stat_book_admin"/>
+
+    <menuitem id="menu_stat_book_chart_view"
+        name="Visualizza Grafici"
+        parent="menu_stat_book_charts"
+        action="action_stat_book_chart"
+        sequence="10"
+        groups="group_stat_book_user,group_stat_book_admin"/>
+
+    <!-- Menu Configurazione -->
+    <menuitem id="menu_stat_book_config"
+        name="Configurazione"
+        parent="menu_stat_book_root"
+        sequence="90"
+        groups="group_stat_book_admin"/>
+
+    <menuitem id="menu_stat_book_divisions"
+        name="Divisioni GDS"
+        parent="menu_stat_book_config"
+        action="action_stat_book_division"
+        sequence="10"
+        groups="group_stat_book_admin"/>
+
+    <menuitem id="menu_stat_book_departments"
+        name="Dipartimenti"
+        parent="menu_stat_book_config"
+        action="action_stat_book_department"
+        sequence="20"
+        groups="group_stat_book_admin"/>
+
+    <menuitem id="menu_stat_book_data"
+        name="Dati Statistici"
+        parent="menu_stat_book_config"
+        action="action_stat_book_data"
+        sequence="30"
+        groups="group_stat_book_admin"/>
+
+    <menuitem id="menu_stat_book_settings"
+        name="Impostazioni"
+        parent="menu_stat_book_config"
+        action="action_stat_book_config"
+        sequence="100"
+        groups="group_stat_book_admin"/>
+</odoo>

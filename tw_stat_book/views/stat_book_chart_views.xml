@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Vista Grafico Personalizzata -->
+    <record id="view_stat_book_chart" model="ir.ui.view">
+        <field name="name">stat.book.chart.view</field>
+        <field name="model">stat.book.department</field>
+        <field name="arch" type="xml">
+            <form string="Grafici Statistici">
+                <sheet>
+                    <div class="stat_book_chart_container">
+                        <div class="stat_book_controls">
+                            <group>
+                                <group>
+                                    <field name="division_id" readonly="1"/>
+                                    <field name="name" readonly="1" string="Dipartimento"/>
+                                </group>
+                                <group>
+                                    <field name="forecast_min_3months" readonly="1"/>
+                                    <field name="forecast_max_3months" readonly="1"/>
+                                </group>
+                            </group>
+                            <div class="stat_book_view_selector">
+                                <button type="button" class="btn btn-primary stat_book_view_btn" data-view="weekly">
+                                    Settimanale
+                                </button>
+                                <button type="button" class="btn btn-secondary stat_book_view_btn" data-view="monthly">
+                                    Mensile
+                                </button>
+                                <button type="button" class="btn btn-secondary stat_book_view_btn" data-view="yearly">
+                                    Annuale
+                                </button>
+                            </div>
+                        </div>
+                        <div class="stat_book_chart_wrapper">
+                            <canvas id="stat_book_chart" style="max-height: 500px;"></canvas>
+                        </div>
+                    </div>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- Action per Vista Grafici -->
+    <record id="action_stat_book_chart" model="ir.actions.act_window">
+        <field name="name">Visualizza Grafici</field>
+        <field name="res_model">stat.book.department</field>
+        <field name="view_mode">form</field>
+        <field name="view_id" ref="view_stat_book_chart"/>
+        <field name="target">new</field>
+    </record>
+</odoo>

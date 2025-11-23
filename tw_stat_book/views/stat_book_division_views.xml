@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Vista Tree per Divisioni -->
+    <record id="view_stat_book_division_tree" model="ir.ui.view">
+        <field name="name">stat.book.division.tree</field>
+        <field name="model">stat.book.division</field>
+        <field name="arch" type="xml">
+            <tree string="Divisioni GDS">
+                <field name="sequence" widget="handle"/>
+                <field name="name"/>
+                <field name="forecast_min_3months"/>
+                <field name="forecast_max_3months"/>
+                <field name="active"/>
+            </tree>
+        </field>
+    </record>
+
+    <!-- Vista Form per Divisioni -->
+    <record id="view_stat_book_division_form" model="ir.ui.view">
+        <field name="name">stat.book.division.form</field>
+        <field name="model">stat.book.division</field>
+        <field name="arch" type="xml">
+            <form string="Divisione GDS">
+                <sheet>
+                    <div class="oe_button_box" name="button_box">
+                        <button name="toggle_active" type="object" class="oe_stat_button" icon="fa-archive">
+                            <field name="active" widget="boolean_button" options='{"terminology": "archive"}'/>
+                        </button>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="name"/>
+                            <field name="sequence"/>
+                        </group>
+                        <group>
+                            <field name="forecast_min_3months"/>
+                            <field name="forecast_max_3months"/>
+                        </group>
+                    </group>
+                    <notebook>
+                        <page string="Dipartimenti" name="departments">
+                            <field name="department_ids">
+                                <tree editable="bottom">
+                                    <field name="sequence" widget="handle"/>
+                                    <field name="name"/>
+                                    <field name="forecast_min_3months"/>
+                                    <field name="forecast_max_3months"/>
+                                    <field name="active"/>
+                                </tree>
+                            </field>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- Action per Divisioni -->
+    <record id="action_stat_book_division" model="ir.actions.act_window">
+        <field name="name">Divisioni GDS</field>
+        <field name="res_model">stat.book.division</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Crea la tua prima Divisione GDS
+            </p>
+            <p>
+                Le divisioni raggruppano i dipartimenti per la gestione delle statistiche.
+            </p>
+        </field>
+    </record>
+</odoo>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Vista Tree per Dipartimenti -->
+    <record id="view_stat_book_department_tree" model="ir.ui.view">
+        <field name="name">stat.book.department.tree</field>
+        <field name="model">stat.book.department</field>
+        <field name="arch" type="xml">
+            <tree string="Dipartimenti">
+                <field name="sequence" widget="handle"/>
+                <field name="division_id"/>
+                <field name="name"/>
+                <field name="forecast_min_3months"/>
+                <field name="forecast_max_3months"/>
+                <field name="active"/>
+            </tree>
+        </field>
+    </record>
+
+    <!-- Vista Form per Dipartimenti -->
+    <record id="view_stat_book_department_form" model="ir.ui.view">
+        <field name="name">stat.book.department.form</field>
+        <field name="model">stat.book.department</field>
+        <field name="arch" type="xml">
+            <form string="Dipartimento">
+                <sheet>
+                    <div class="oe_button_box" name="button_box">
+                        <button name="toggle_active" type="object" class="oe_stat_button" icon="fa-archive">
+                            <field name="active" widget="boolean_button" options='{"terminology": "archive"}'/>
+                        </button>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="division_id"/>
+                            <field name="name"/>
+                            <field name="sequence"/>
+                        </group>
+                        <group>
+                            <field name="forecast_min_3months"/>
+                            <field name="forecast_max_3months"/>
+                        </group>
+                    </group>
+                    <notebook>
+                        <page string="Dati Statistici" name="statistics">
+                            <field name="data_ids">
+                                <tree>
+                                    <field name="date"/>
+                                    <field name="value" sum="Totale"/>
+                                    <field name="user_id"/>
+                                    <field name="notes"/>
+                                </tree>
+                            </field>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- Vista Search per Dipartimenti -->
+    <record id="view_stat_book_department_search" model="ir.ui.view">
+        <field name="name">stat.book.department.search</field>
+        <field name="model">stat.book.department</field>
+        <field name="arch" type="xml">
+            <search string="Cerca Dipartimenti">
+                <field name="name"/>
+                <field name="division_id"/>
+                <filter string="Attivi" name="active" domain="[('active', '=', True)]"/>
+                <filter string="Archiviati" name="inactive" domain="[('active', '=', False)]"/>
+                <group expand="0" string="Raggruppa per">
+                    <filter string="Divisione" name="group_division" context="{'group_by': 'division_id'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <!-- Action per Dipartimenti -->
+    <record id="action_stat_book_department" model="ir.actions.act_window">
+        <field name="name">Dipartimenti</field>
+        <field name="res_model">stat.book.department</field>
+        <field name="view_mode">tree,form</field>
+        <field name="context">{'search_default_active': 1}</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Crea il tuo primo Dipartimento
+            </p>
+            <p>
+                I dipartimenti sono collegati alle divisioni e raccolgono i dati statistici.
+            </p>
+        </field>
+    </record>
+</odoo>

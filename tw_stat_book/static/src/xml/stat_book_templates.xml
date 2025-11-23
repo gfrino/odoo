@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+    
+    <!-- Template per il widget grafico -->
+    <t t-name="tw_stat_book.StatBookChartWidget" owl="1">
+        <div class="stat_book_chart_widget">
+            <div class="stat_book_controls mb-3">
+                <div class="btn-group" role="group">
+                    <button type="button" 
+                            class="btn btn-sm"
+                            t-att-class="state.viewType === 'weekly' ? 'btn-primary' : 'btn-secondary'"
+                            t-on-click="() => this.onViewTypeChange('weekly')">
+                        Settimanale
+                    </button>
+                    <button type="button" 
+                            class="btn btn-sm"
+                            t-att-class="state.viewType === 'monthly' ? 'btn-primary' : 'btn-secondary'"
+                            t-on-click="() => this.onViewTypeChange('monthly')">
+                        Mensile
+                    </button>
+                    <button type="button" 
+                            class="btn btn-sm"
+                            t-att-class="state.viewType === 'yearly' ? 'btn-primary' : 'btn-secondary'"
+                            t-on-click="() => this.onViewTypeChange('yearly')">
+                        Annuale
+                    </button>
+                </div>
+            </div>
+            <div class="stat_book_chart_container" style="position: relative; height: 400px;">
+                <t t-if="state.loading">
+                    <div class="text-center">
+                        <i class="fa fa-spinner fa-spin fa-3x"/>
+                        <p>Caricamento dati...</p>
+                    </div>
+                </t>
+                <t t-else="">
+                    <canvas t-ref="chartCanvas"/>
+                </t>
+            </div>
+        </div>
+    </t>
+
+    <!-- Template per il pulsante widget -->
+    <t t-name="tw_stat_book.StatBookButtonWidget" owl="1">
+        <button type="button" 
+                class="btn btn-sm btn-secondary stat_book_add_button"
+                t-on-click="onClick"
+                title="Aggiungi a Stat Book">
+            <i class="fa fa-line-chart"/> 
+            <t t-if="props.string">
+                <t t-esc="props.string"/>
+            </t>
+        </button>
+    </t>
+
+</templates>

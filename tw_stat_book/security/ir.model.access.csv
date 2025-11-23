@@ -1,0 +1,9 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_stat_book_config_user,stat.book.config.user,model_stat_book_config,group_stat_book_user,1,0,0,0
+access_stat_book_config_admin,stat.book.config.admin,model_stat_book_config,group_stat_book_admin,1,1,1,1
+access_stat_book_division_user,stat.book.division.user,model_stat_book_division,group_stat_book_user,1,0,0,0
+access_stat_book_division_admin,stat.book.division.admin,model_stat_book_division,group_stat_book_admin,1,1,1,1
+access_stat_book_department_user,stat.book.department.user,model_stat_book_department,group_stat_book_user,1,0,0,0
+access_stat_book_department_admin,stat.book.department.admin,model_stat_book_department,group_stat_book_admin,1,1,1,1
+access_stat_book_data_user,stat.book.data.user,model_stat_book_data,group_stat_book_user,1,0,0,0
+access_stat_book_data_admin,stat.book.data.admin,model_stat_book_data,group_stat_book_admin,1,1,1,1

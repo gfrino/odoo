@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Vista Form per Wizard Aggiungi Dati -->
+    <record id="view_stat_book_add_data_wizard_form" model="ir.ui.view">
+        <field name="name">stat.book.add.data.wizard.form</field>
+        <field name="model">stat.book.add.data.wizard</field>
+        <field name="arch" type="xml">
+            <form string="Aggiungi a Stat Book">
+                <sheet>
+                    <div class="oe_title">
+                        <h1>
+                            <field name="preview_text" readonly="1" class="oe_inline"/>
+                        </h1>
+                    </div>
+                    <group>
+                        <group string="Seleziona Destinazione">
+                            <field name="division_id" options="{'no_create': True, 'no_open': True}"/>
+                            <field name="department_id" options="{'no_create': True, 'no_open': True}"/>
+                        </group>
+                        <group string="Dati Statistici">
+                            <field name="date"/>
+                            <field name="value"/>
+                        </group>
+                    </group>
+                    <group string="Note Aggiuntive">
+                        <field name="notes" nolabel="1" placeholder="Inserisci eventuali note..."/>
+                    </group>
+                    <group invisible="1">
+                        <field name="res_model"/>
+                        <field name="res_id"/>
+                    </group>
+                </sheet>
+                <footer>
+                    <button name="action_add_data" string="Aggiungi" type="object" class="btn-primary"/>
+                    <button string="Annulla" class="btn-secondary" special="cancel"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <!-- Action per Wizard -->
+    <record id="action_stat_book_add_data_wizard" model="ir.actions.act_window">
+        <field name="name">Aggiungi a Stat Book</field>
+        <field name="res_model">stat.book.add.data.wizard</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+    </record>
+</odoo>

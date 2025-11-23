@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Vista Tree per Dati Statistici -->
+    <record id="view_stat_book_data_tree" model="ir.ui.view">
+        <field name="name">stat.book.data.tree</field>
+        <field name="model">stat.book.data</field>
+        <field name="arch" type="xml">
+            <tree string="Dati Statistici">
+                <field name="date"/>
+                <field name="division_id"/>
+                <field name="department_id"/>
+                <field name="value" sum="Totale"/>
+                <field name="user_id"/>
+            </tree>
+        </field>
+    </record>
+
+    <!-- Vista Form per Dati Statistici -->
+    <record id="view_stat_book_data_form" model="ir.ui.view">
+        <field name="name">stat.book.data.form</field>
+        <field name="model">stat.book.data</field>
+        <field name="arch" type="xml">
+            <form string="Dato Statistico">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="department_id"/>
+                            <field name="division_id"/>
+                            <field name="date"/>
+                        </group>
+                        <group>
+                            <field name="value"/>
+                            <field name="user_id"/>
+                        </group>
+                    </group>
+                    <group string="Riferimento">
+                        <field name="res_model"/>
+                        <field name="res_id"/>
+                    </group>
+                    <group string="Note">
+                        <field name="notes" nolabel="1"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- Vista Search per Dati Statistici -->
+    <record id="view_stat_book_data_search" model="ir.ui.view">
+        <field name="name">stat.book.data.search</field>
+        <field name="model">stat.book.data</field>
+        <field name="arch" type="xml">
+            <search string="Cerca Dati Statistici">
+                <field name="department_id"/>
+                <field name="division_id"/>
+                <field name="date"/>
+                <filter string="Oggi" name="today" domain="[('date', '=', context_today().strftime('%Y-%m-%d'))]"/>
+                <filter string="Questa Settimana" name="this_week" 
+                    domain="[('date', '&gt;=', (context_today() - relativedelta(days=context_today().weekday())).strftime('%Y-%m-%d')),
+                            ('date', '&lt;=', (context_today() + relativedelta(days=6-context_today().weekday())).strftime('%Y-%m-%d'))]"/>
+                <filter string="Questo Mese" name="this_month" 
+                    domain="[('date', '&gt;=', context_today().strftime('%Y-%m-01'))]"/>
+                <filter string="Quest'Anno" name="this_year" 
+                    domain="[('date', '&gt;=', context_today().strftime('%Y-01-01'))]"/>
+                <group expand="0" string="Raggruppa per">
+                    <filter string="Divisione" name="group_division" context="{'group_by': 'division_id'}"/>
+                    <filter string="Dipartimento" name="group_department" context="{'group_by': 'department_id'}"/>
+                    <filter string="Data" name="group_date" context="{'group_by': 'date'}"/>
+                    <filter string="Utente" name="group_user" context="{'group_by': 'user_id'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <!-- Action per Dati Statistici -->
+    <record id="action_stat_book_data" model="ir.actions.act_window">
+        <field name="name">Dati Statistici</field>
+        <field name="res_model">stat.book.data</field>
+        <field name="view_mode">tree,form</field>
+        <field name="context">{'search_default_this_month': 1}</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Nessun dato statistico trovato
+            </p>
+            <p>
+                I dati statistici vengono aggiunti dai vari moduli utilizzando il pulsante grafico.
+            </p>
+        </field>
+    </record>
+</odoo>

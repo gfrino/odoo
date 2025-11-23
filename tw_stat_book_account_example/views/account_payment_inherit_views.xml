@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Estende la vista form dei pagamenti per aggiungere il pulsante Stat Book -->
+    <record id="view_account_payment_form_inherit_stat_book" model="ir.ui.view">
+        <field name="name">account.payment.form.inherit.stat.book</field>
+        <field name="model">account.payment</field>
+        <field name="inherit_id" ref="account.view_account_payment_form"/>
+        <field name="arch" type="xml">
+            <!-- Aggiungi il pulsante nell'header dopo gli altri pulsanti -->
+            <xpath expr="//header" position="inside">
+                <button name="action_open_stat_book_wizard" 
+                        type="object" 
+                        string="Stat Book"
+                        icon="fa-line-chart"
+                        groups="tw_stat_book.group_stat_book_admin"
+                        class="oe_stat_button"
+                        help="Aggiungi questo pagamento alle statistiche"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>

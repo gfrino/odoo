@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Vista Form per Configurazione -->
+    <record id="view_stat_book_config_form" model="ir.ui.view">
+        <field name="name">stat.book.config.form</field>
+        <field name="model">stat.book.config</field>
+        <field name="arch" type="xml">
+            <form string="Configurazione Stat Book">
+                <sheet>
+                    <group>
+                        <group string="Impostazioni Generali">
+                            <field name="week_start_day"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- Action per Configurazione -->
+    <record id="action_stat_book_config" model="ir.actions.act_window">
+        <field name="name">Configurazione</field>
+        <field name="res_model">stat.book.config</field>
+        <field name="view_mode">form</field>
+        <field name="target">inline</field>
+        <field name="context">{'form_view_initial_mode': 'edit'}</field>
+    </record>
+</odoo>
